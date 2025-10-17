@@ -372,7 +372,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d Models/113991054--3DModel-STEP-269445.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 4)
 		)
 		(scale
 			(xyz 1 1 1)
