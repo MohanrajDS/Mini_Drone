@@ -5,6 +5,145 @@
 	(uuid "78cab637-df74-4866-a6fd-9f72f844e5cf")
 	(paper "A4")
 	(lib_symbols
+		(symbol "C_1uf_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1uf"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1uf_1_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1uf_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -254,269 +393,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:1N4148W"
 			(pin_numbers
 				(hide yes)
@@ -667,6 +543,314 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_prj:C_100nf"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100nf"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_100nf_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_100nf_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_prj:Resistor_SMD{colon}R_0603_1608Metric"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" " C25804"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Link" "https://www.lcsc.com/product-detail/C25804.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR.Part #" "0603WAF1002T5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistor_SMD{colon}R_0603_1608Metric_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor_SMD{colon}R_0603_1608Metric_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1127,6 +1311,145 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_prj:c_10nf"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10nf"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "c_10nf_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "c_10nf_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2184,6 +2507,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 68.58 87.63)
@@ -2240,16 +2664,16 @@
 		(uuid "04b8649e-dcf6-45dd-8419-829e44092c4a")
 	)
 	(junction
-		(at 203.2 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ab2993a-ec67-416e-b1c4-6e0d4ae0f92c")
-	)
-	(junction
 		(at 238.76 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0babe0a9-b9e8-4148-8209-396061be29f7")
+	)
+	(junction
+		(at 83.82 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e129124-4813-476c-88d8-92e345a41085")
 	)
 	(junction
 		(at 255.27 35.56)
@@ -2270,6 +2694,12 @@
 		(uuid "25d454a0-74de-4590-b33a-15e0233f04a4")
 	)
 	(junction
+		(at 77.47 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28858369-c93f-47ff-a932-fbeac81e5c9c")
+	)
+	(junction
 		(at 205.74 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2279,7 +2709,7 @@
 		(at 248.92 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "397db440-1ee1-4b3a-9f0f-f75c8674c5fc")
+		(uuid "37fe1870-8f3f-4de9-a3d8-121923c32a5f")
 	)
 	(junction
 		(at 228.6 102.87)
@@ -2298,6 +2728,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50cc957a-2f61-4142-b626-72bc9948a36f")
+	)
+	(junction
+		(at 238.76 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5542c4cb-53d3-4ddf-8e39-bab36fb200e3")
 	)
 	(junction
 		(at 210.82 142.24)
@@ -2336,6 +2772,18 @@
 		(uuid "a3a53ce7-e2dc-4854-825d-6a0c5489f840")
 	)
 	(junction
+		(at 166.37 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a41e7492-9239-46ea-8a0e-003af16e5edf")
+	)
+	(junction
+		(at 203.2 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a67f2df9-b9cf-46e6-8447-0b88d0a22170")
+	)
+	(junction
 		(at 204.47 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2346,12 +2794,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4a963f4-4827-44a7-9a9b-883c6313994b")
-	)
-	(junction
-		(at 238.76 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d763e637-92fb-45a3-8dfb-5fd186a2f0b4")
 	)
 	(junction
 		(at 153.67 25.4)
@@ -2547,6 +2989,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 95.25) (xy 248.92 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf71bfc-d085-4eae-a963-055be491e157")
+	)
+	(wire
+		(pts
 			(xy 189.23 45.72) (xy 189.23 49.53)
 		)
 		(stroke
@@ -2604,6 +3056,16 @@
 			(type default)
 		)
 		(uuid "3155aa28-71eb-45fd-baa9-48368d4bba6d")
+	)
+	(wire
+		(pts
+			(xy 166.37 101.6) (xy 168.91 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3164cc5a-4c60-4cbf-a83a-35a0882ed3ec")
 	)
 	(wire
 		(pts
@@ -2684,16 +3146,6 @@
 			(type default)
 		)
 		(uuid "44a9a36a-eeaf-475f-a603-39ad2a904565")
-	)
-	(wire
-		(pts
-			(xy 205.74 104.14) (xy 203.2 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "454344bd-e597-4d50-8ec5-4889312b4ad8")
 	)
 	(wire
 		(pts
@@ -2797,6 +3249,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 105.41) (xy 83.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b4451c-9540-4773-8961-98b6f26f7c92")
+	)
+	(wire
+		(pts
 			(xy 127 114.3) (xy 130.81 114.3)
 		)
 		(stroke
@@ -2854,6 +3316,16 @@
 			(type default)
 		)
 		(uuid "7e82f42a-42a6-4110-8ff1-961a6d6966b9")
+	)
+	(wire
+		(pts
+			(xy 166.37 95.25) (xy 166.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8ff8e8-bce1-4898-9240-dfd5a64f3eca")
 	)
 	(wire
 		(pts
@@ -2987,6 +3459,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 102.87) (xy 83.82 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec34d4b-9e68-4c1a-82a4-b2b3955e7b55")
+	)
+	(wire
+		(pts
 			(xy 205.74 50.8) (xy 205.74 60.96)
 		)
 		(stroke
@@ -3064,6 +3546,16 @@
 			(type default)
 		)
 		(uuid "b2972130-9c5e-4b04-8481-64b6fef261d1")
+	)
+	(wire
+		(pts
+			(xy 203.2 104.14) (xy 205.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73059e5-2215-474e-965c-5728896c8ed4")
 	)
 	(wire
 		(pts
@@ -3147,16 +3639,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 104.14) (xy 200.66 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d32eba5d-af2d-4e05-9ece-db8f692d0993")
-	)
-	(wire
-		(pts
 			(xy 229.87 45.72) (xy 238.76 45.72)
 		)
 		(stroke
@@ -3184,6 +3666,16 @@
 			(type default)
 		)
 		(uuid "d50daf46-aa6e-4593-8f0d-e7c851a1743f")
+	)
+	(wire
+		(pts
+			(xy 200.66 104.14) (xy 203.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d798d664-9b85-4d01-8542-f2aeafed9d30")
 	)
 	(wire
 		(pts
@@ -3277,16 +3769,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 95.25) (xy 248.92 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e992f51b-7623-4ae0-9d30-e926428831c8")
-	)
-	(wire
-		(pts
 			(xy 260.35 105.41) (xy 260.35 106.68)
 		)
 		(stroke
@@ -3317,7 +3799,17 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 95.25) (xy 228.6 95.25)
+			(xy 77.47 95.25) (xy 82.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98f079d-d10d-4416-af07-d09bf442f307")
+	)
+	(wire
+		(pts
+			(xy 228.6 95.25) (xy 238.76 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3334,6 +3826,16 @@
 			(type default)
 		)
 		(uuid "fb6d8312-1397-4d6c-ad6e-a3d3cf7f8a73")
+	)
+	(wire
+		(pts
+			(xy 77.47 102.87) (xy 77.47 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb9e3bc5-0f7b-4492-b92f-972c69a7cf90")
 	)
 	(wire
 		(pts
@@ -3486,7 +3988,7 @@
 		(uuid "9594d686-1592-456e-9e45-64733efbc1c5")
 	)
 	(label "BAT+"
-		(at 83.82 102.87 180)
+		(at 77.47 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3534,6 +4036,99 @@
 			(justify right bottom)
 		)
 		(uuid "ec7eccc5-d07f-49ae-96ad-82152cb49969")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 228.6 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09585488-925b-41be-9f98-91d9832d435d")
+		(property "Netclass" "3v3"
+			(at 226.06 94.5515 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 19.05 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 82.55 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47c811e0-f329-4cd3-bf96-9ef46cd96326")
+		(property "Netclass" "power"
+			(at 83.2485 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -177.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 166.37 96.52 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a6c4200-bae7-4c5f-8e87-e4f7184c4a2d")
+		(property "Netclass" "3v3"
+			(at 168.91 95.8215 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -43.18 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
@@ -3913,76 +4508,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 200.66 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f31b943-9d61-4e43-9ef3-ade32f720c5a")
-		(property "Reference" "R5"
-			(at 203.2 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 203.2 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 198.882 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 200.66 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0c06d18-1a92-4676-af2a-34918f29692c")
-		)
-		(pin "2"
-			(uuid "b712f7e7-9fb6-4a85-9d0f-cfb21a44a90b")
-		)
-		(instances
-			(project "Mini_Drone"
-				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 205.74 60.96 0)
 		(unit 1)
@@ -4125,6 +4650,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Drone_prj:C_100nf")
+		(at 248.92 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20505450-8a19-40b0-b67b-31411bbd766c")
+		(property "Reference" "C1"
+			(at 249.174 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 249.174 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 249.8852 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 248.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a938a400-d983-47f4-ae4a-b96a35db8b7c")
+		)
+		(pin "2"
+			(uuid "2735804c-2768-4fad-b76b-243f21e9954f")
+		)
+		(instances
+			(project ""
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 146.05 34.29 0)
 		(unit 1)
@@ -4211,17 +4805,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 238.76 53.34 0)
+		(lib_id "Drone_prj:Resistor_SMD{colon}R_0603_1608Metric")
+		(at 189.23 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ad4ce82-a5d8-43b8-8fdb-abf09d402a50")
-		(property "Reference" "R4"
-			(at 241.3 52.0699 0)
+		(uuid "2ae7fc8f-99a2-4d91-a535-867eeec364ad")
+		(property "Reference" "R10"
+			(at 190.754 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,8 +4822,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 241.3 54.6099 0)
+		(property "Value" "10k"
+			(at 189.23 54.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,8 +4831,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 236.982 53.34 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 187.452 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,8 +4840,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 238.76 53.34 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4257,7 +4850,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 238.76 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,16 +4858,61 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "c5bb5842-bf21-4ce7-8e49-e16087749c3a")
+		(property "LCSC Part #" " C25804"
+			(at 189.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C25804.html"
+			(at 189.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "0603WAF1002T5E"
+			(at 189.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 189.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 189.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "3797be40-ada0-4f50-8625-084d37d3033f")
+			(uuid "4ba92b56-3642-4323-bd3f-8b495ab018c8")
+		)
+		(pin "1"
+			(uuid "4c4f882c-0676-451c-bc30-d396c6d55d4e")
 		)
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "R4")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4685,6 +5323,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Drone_prj:Resistor_SMD{colon}R_0603_1608Metric")
+		(at 205.74 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "433f37e1-3154-4fef-af76-e1d85592bff7")
+		(property "Reference" "R7"
+			(at 207.01 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 205.74 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 203.962 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C25804"
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C25804.html"
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "0603WAF1002T5E"
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb1d0921-1398-4a60-96d3-eac10e0d833d")
+		)
+		(pin "1"
+			(uuid "a54222f6-52be-45f4-9659-916db97c522b")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:AO3400A")
 		(at 96.52 44.45 0)
 		(unit 1)
@@ -4755,76 +5507,6 @@
 			(project ""
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 260.35 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d592128-7b7e-4fe8-a779-218854c8a1bb")
-		(property "Reference" "R7"
-			(at 262.89 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 262.89 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 258.572 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.35 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 260.35 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "506592d2-dcd5-446c-b9a6-713bfe56748c")
-		)
-		(pin "2"
-			(uuid "ad66f9f9-1a68-4ae7-8050-1b85c4679364")
-		)
-		(instances
-			(project "Mini_Drone"
-				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5106,6 +5788,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 77.47 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fb59976-aa24-4829-b820-c1a2909e2672")
+		(property "Reference" "#FLG03"
+			(at 77.47 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 77.4699 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 77.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c81db4f-a4d8-4afb-9a00-d662146f9360")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 88.9 102.87 0)
 		(unit 1)
@@ -5170,6 +5920,120 @@
 			(project ""
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_prj:Resistor_SMD{colon}R_0603_1608Metric")
+		(at 82.55 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61f7bae3-7873-40f3-bdea-5b06f9d5742f")
+		(property "Reference" "R12"
+			(at 84.582 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 82.55 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 80.772 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+			(at 82.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C25804"
+			(at 82.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C25804.html"
+			(at 82.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "0603WAF1002T5E"
+			(at 82.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 82.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 82.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8b175bb-cc39-4d87-92bc-e6fb050474a9")
+		)
+		(pin "1"
+			(uuid "c6c1fdc1-c4df-4b2d-a065-fe3c35dfa493")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5308,6 +6172,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Drone_prj:c_10nf")
+		(at 271.78 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72e6cb65-4254-471a-a89b-81b8d88a9118")
+		(property "Reference" "C3"
+			(at 272.288 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nf"
+			(at 272.288 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 272.7452 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 271.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20c2ce06-c453-429c-8cd7-3c384a65afa6")
+		)
+		(pin "1"
+			(uuid "c03fcaa9-7d59-4a5c-9f72-b89411ebcb31")
+		)
+		(instances
+			(project ""
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 162.56 25.4 270)
 		(unit 1)
@@ -5375,76 +6308,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 82.55 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72faa642-0987-4fb1-873f-660b3d738e8f")
-		(property "Reference" "R1"
-			(at 85.09 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 85.09 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 80.772 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 82.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f238062-5775-4177-9319-20e34a90171f")
-		)
-		(pin "2"
-			(uuid "e804290d-c10b-49e3-9d4b-421bf2d06316")
-		)
-		(instances
-			(project ""
-				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 154.94 59.69 0)
 		(unit 1)
@@ -5505,76 +6368,6 @@
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 205.74 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7643169d-3944-4bbc-bbd6-6633aa6718a9")
-		(property "Reference" "R6"
-			(at 208.28 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 208.28 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 203.962 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 205.74 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f47e51fb-1f66-46f4-87a7-d16474cba90f")
-		)
-		(pin "2"
-			(uuid "c2bd5112-68cb-4c68-84f6-41248e6341f7")
-		)
-		(instances
-			(project "Mini_Drone"
-				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5845,17 +6638,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 138.43 52.07 0)
+		(lib_id "Drone_prj:Resistor_SMD{colon}R_0603_1608Metric")
+		(at 260.35 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8deef7ec-b729-4460-b36a-5863496378e3")
-		(property "Reference" "R2"
-			(at 140.97 50.7999 0)
+		(uuid "8f14b037-974a-4c8d-808c-0e2a100d3939")
+		(property "Reference" "R8"
+			(at 262.89 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,8 +6656,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 140.97 53.3399 0)
+		(property "Value" "10k"
+			(at 262.89 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,8 +6665,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 136.652 52.07 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 258.572 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,8 +6674,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 138.43 52.07 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+			(at 260.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,7 +6684,121 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 52.07 0)
+			(at 260.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C25804"
+			(at 260.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C25804.html"
+			(at 260.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "0603WAF1002T5E"
+			(at 260.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 260.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 260.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62f5755c-0889-4afc-abf1-ecbc06cbe229")
+		)
+		(pin "1"
+			(uuid "5081d516-fe1c-4c50-a374-de1e5f99e9b3")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 168.91 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f972a25-0fc1-4008-8146-5d188da9035c")
+		(property "Reference" "#FLG01"
+			(at 168.91 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 172.212 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5900,15 +6807,195 @@
 			)
 		)
 		(pin "1"
-			(uuid "b97ec634-49ae-4067-843d-d1fd9d01b350")
+			(uuid "f5e4e833-d146-4419-8fab-d647dd5132e1")
+		)
+		(instances
+			(project ""
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_prj:Resistor_SMD{colon}R_0603_1608Metric")
+		(at 200.66 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "928f0d67-e8ac-4368-8ac1-1fe4b0865299")
+		(property "Reference" "R6"
+			(at 196.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 200.66 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 198.882 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C25804"
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C25804.html"
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "0603WAF1002T5E"
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "c9d6dc4c-5353-4a18-8c43-3ad881f096ed")
+			(uuid "cf4e7380-7bd7-4a0a-9a0e-abe5b9329084")
+		)
+		(pin "1"
+			(uuid "dee1ea3b-1551-4464-b351-5cb95267dea8")
+		)
+		(instances
+			(project ""
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_prj:c_10nf")
+		(at 238.76 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cb49486-6ac7-44f5-acf9-7d9ad9d33638")
+		(property "Reference" "C4"
+			(at 235.712 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nf"
+			(at 233.934 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 239.7252 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 238.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c3002bd-f9de-4474-8f57-443966184441")
+		)
+		(pin "1"
+			(uuid "867bc087-e96a-44ec-8784-3b216f3c520a")
 		)
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "R2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5981,7 +7068,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 166.37 101.6 0)
+		(at 166.37 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5990,7 +7077,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f381c9d-c486-40de-bd57-dc68e5c2514e")
 		(property "Reference" "#PWR06"
-			(at 166.37 105.41 0)
+			(at 166.37 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,7 +7086,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 166.37 96.52 0)
+			(at 166.37 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +7094,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 101.6 0)
+			(at 166.37 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6016,7 +7103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 101.6 0)
+			(at 166.37 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,7 +7112,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 166.37 101.6 0)
+			(at 166.37 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,16 +7350,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 248.92 99.06 0)
+		(lib_id "Drone_prj:Resistor_SMD{colon}R_0603_1608Metric")
+		(at 238.76 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c640b1f1-5c3d-411b-aabb-d9bc33d4991f")
-		(property "Reference" "C2"
-			(at 249.428 97.028 0)
+		(uuid "b7cb8991-8fb0-42bc-9475-b8893cb1ce81")
+		(property "Reference" "R9"
+			(at 240.03 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6280,8 +7367,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
-			(at 249.174 101.092 0)
+		(property "Value" "10k"
+			(at 238.76 54.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6289,8 +7376,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 249.8852 102.87 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 236.982 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,8 +7385,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 248.92 99.06 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+			(at 238.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,8 +7394,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 248.92 99.06 0)
+		(property "Description" "Resistor"
+			(at 238.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C25804"
+			(at 238.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C25804.html"
+			(at 238.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "0603WAF1002T5E"
+			(at 238.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 238.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 238.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,31 +7449,32 @@
 			)
 		)
 		(pin "2"
-			(uuid "0b86c23a-843c-46ea-a921-b8a9494e02e8")
+			(uuid "e2052aa5-7e62-41df-ad59-7da2cc2d53fa")
 		)
 		(pin "1"
-			(uuid "8cc191b6-b005-412c-987a-293e55d7c821")
+			(uuid "e0fae5d2-94b5-4cfc-a6da-265b02eaf4ed")
 		)
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "C2")
+					(reference "R9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 238.76 99.06 0)
+		(lib_name "C_1uf_1")
+		(lib_id "Drone_prj:C_1uf")
+		(at 260.35 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d9afb42a-7cde-42f8-bd4a-09e479cb1608")
-		(property "Reference" "C1"
-			(at 239.268 97.028 0)
+		(uuid "bf8060fa-aa2a-48ec-9328-9bd8b3d37797")
+		(property "Reference" "C6"
+			(at 260.858 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6349,8 +7482,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nf"
-			(at 239.268 101.092 0)
+		(property "Value" "1uf"
+			(at 260.604 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6358,8 +7491,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 239.7252 102.87 0)
+		(property "Footprint" ""
+			(at 261.3152 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,7 +7501,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 99.06 0)
+			(at 260.35 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +7510,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 238.76 99.06 0)
+			(at 260.35 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,15 +7519,197 @@
 			)
 		)
 		(pin "2"
-			(uuid "887a6f4e-f903-4115-b211-cf46b4279168")
+			(uuid "c634dbfe-a3c3-45a2-ad0e-c3648492cd42")
 		)
 		(pin "1"
-			(uuid "d5feb11a-8306-4aa2-b7b6-7535a0ae955f")
+			(uuid "26d375d2-dd93-4584-9ec3-ec194502aab4")
 		)
 		(instances
 			(project ""
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "C1")
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 80.01 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d78a802b-e53c-4e47-aaf8-b44e0227e3f3")
+		(property "Reference" "#FLG02"
+			(at 78.105 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 76.2 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 80.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdb8ba41-f210-4feb-8170-6797f8de7b76")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_prj:Resistor_SMD{colon}R_0603_1608Metric")
+		(at 138.43 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9aff4cf-a17f-4b8f-aa0b-c857b15cc4b1")
+		(property "Reference" "R11"
+			(at 139.7 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.43 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 136.652 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C25804"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C25804.html"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "0603WAF1002T5E"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94228985-0cc1-442c-9595-5b67f53fa399")
+		)
+		(pin "1"
+			(uuid "1dae0bf2-a85f-4cfc-8feb-2d6ff8e80c8e")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6468,76 +7783,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 189.23 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc2acf2d-e3b9-4130-9a9b-5520b76f8146")
-		(property "Reference" "R3"
-			(at 191.77 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 191.77 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 187.452 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 189.23 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15d6f4df-4e24-443c-b0e0-213f9d39b08f")
-		)
-		(pin "2"
-			(uuid "73039da8-f912-4db2-8ede-7beddfd6672e")
-		)
-		(instances
-			(project "Mini_Drone"
-				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 99.06 59.69 0)
 		(unit 1)
@@ -6598,146 +7843,6 @@
 			(project ""
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 271.78 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1ad8bf1-7ae2-4b7c-800c-f534d0ae6cfc")
-		(property "Reference" "C4"
-			(at 275.59 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nf"
-			(at 275.59 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 272.7452 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 271.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b499d874-1548-4d5e-9dee-95c7ef9f7151")
-		)
-		(pin "2"
-			(uuid "a4bafbf2-ccf2-44e3-99e2-481052e81791")
-		)
-		(instances
-			(project "Mini_Drone"
-				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 260.35 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e80c1583-937e-4adf-a72d-17eef3295f50")
-		(property "Reference" "C3"
-			(at 264.16 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uf"
-			(at 264.16 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 261.3152 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.35 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 260.35 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34ce8f1b-d20f-4a34-8b8a-1a1bb3113e53")
-		)
-		(pin "2"
-			(uuid "e97108d5-aa88-4f71-89b7-db7c0ad0a1c8")
-		)
-		(instances
-			(project ""
-				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "C3")
 					(unit 1)
 				)
 			)
