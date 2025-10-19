@@ -103,94 +103,44 @@
 		(uuid "fd169cd2-aad9-45fe-8a88-0c0bcee7285a")
 	)
 	(fp_line
-		(start -9 -9)
-		(end -6 -9)
+		(start -8.89 -10.47)
+		(end 8.88 -10.47)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "e6c74bae-7c99-4465-bc75-93d12c0ac5bd")
+		(uuid "aa0b197b-bfe9-49b1-86ef-0613137ecc14")
 	)
 	(fp_line
-		(start -9 10)
-		(end -9 -9)
+		(start -8.88 10.48)
+		(end -8.89 -10.47)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "fb22953a-fb9a-4000-b730-e08f69a268c2")
+		(uuid "ff3405db-d467-4fc5-bfe9-d2fc1fa7c78f")
 	)
 	(fp_line
-		(start -6 -9)
-		(end -6 10)
+		(start 8.87 10.47)
+		(end -8.88 10.48)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "e8661f9f-c521-44ec-b5f8-8509ccca4450")
+		(uuid "0ebd59af-31a6-45c0-80bd-56b7448e1e04")
 	)
 	(fp_line
-		(start -6 10)
-		(end -9 10)
+		(start 8.88 -10.47)
+		(end 8.87 10.47)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "98ceb0ba-e9d0-46fc-955e-ca85b92ae106")
-	)
-	(fp_line
-		(start 6 -9)
-		(end 6.5 -9)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "5b1fce88-fbc5-4f9b-8ef5-bdecf416bc49")
-	)
-	(fp_line
-		(start 6 10)
-		(end 6 -9)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "153f44bd-25ae-4633-8ae3-ff007e67d41a")
-	)
-	(fp_line
-		(start 6.5 -9)
-		(end 9 -9)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "e0c18d7b-04ca-4185-bcf8-c1485f7e073a")
-	)
-	(fp_line
-		(start 9 -9)
-		(end 9 10)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "afe2d24e-6746-4eb6-9536-12196682b114")
-	)
-	(fp_line
-		(start 9 10)
-		(end 6 10)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "2e5036e0-d040-4c85-9f06-25af6319fcd0")
+		(uuid "08b0dad3-3ee8-4536-8090-f557284c6f30")
 	)
 	(fp_line
 		(start -8.89 -10.4775)
@@ -422,7 +372,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d Models/113991054--3DModel-STEP-269445.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 4.5)
 		)
 		(scale
 			(xyz 1 1 1)
