@@ -5,145 +5,6 @@
 	(uuid "78cab637-df74-4866-a6fd-9f72f844e5cf")
 	(paper "A4")
 	(lib_symbols
-		(symbol "C_1uf_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1uf"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_1uf_1_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1uf_1_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -393,7 +254,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148W"
+		(symbol "Diode:1N4148WT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -411,7 +272,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4148W"
+			(property "Value" "1N4148WT"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -419,7 +280,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
+			(property "Footprint" "Diode_SMD:D_SOD-523"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -428,7 +289,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -437,7 +298,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
 				(at 0 0 0)
 				(effects
 					(font
@@ -473,7 +334,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?123*"
+			(property "ki_fp_filters" "D*SOD?523*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -482,7 +343,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N4148W_0_1"
+			(symbol "1N4148WT_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -520,7 +381,7 @@
 					)
 				)
 			)
-			(symbol "1N4148W_1_1"
+			(symbol "1N4148WT_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -588,7 +449,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -660,6 +521,145 @@
 				)
 			)
 			(symbol "C_100nf_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_prj:C_1uf"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1uf"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1uf_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1uf_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1346,7 +1346,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -2610,8 +2610,8 @@
 		)
 	)
 	(rectangle
-		(start 68.58 87.63)
-		(end 110.49 123.19)
+		(start 15.24 20.32)
+		(end 57.15 55.88)
 		(stroke
 			(width 0)
 			(type default)
@@ -2645,17 +2645,11 @@
 		)
 		(uuid 78fb21c7-68ca-4246-9f4f-cd6ad73a8a62)
 	)
-	(rectangle
-		(start 114.3 82.55)
-		(end 179.07 147.32)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bcde8502-d5f5-463b-80a5-93bee61f9285)
+	(junction
+		(at 259.08 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02faab47-b4eb-4215-8d0b-48ff2acb8ba9")
 	)
 	(junction
 		(at 205.74 35.56)
@@ -2670,7 +2664,13 @@
 		(uuid "0babe0a9-b9e8-4148-8209-396061be29f7")
 	)
 	(junction
-		(at 83.82 105.41)
+		(at 73.66 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c3a2d98-78d6-4899-9e7d-a7d69dcb002f")
+	)
+	(junction
+		(at 30.48 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e129124-4813-476c-88d8-92e345a41085")
@@ -2682,10 +2682,22 @@
 		(uuid "131f6b3e-264a-4aeb-b287-c7c945d2efd6")
 	)
 	(junction
-		(at 251.46 26.67)
+		(at 97.79 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "15f5ede9-f7bb-4929-84db-419bafcba8bb")
+		(uuid "159296b7-4634-4416-b21e-c5cf32d99faa")
+	)
+	(junction
+		(at 259.08 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15d150a3-9a7d-411a-9db2-cf1b56e3aaba")
+	)
+	(junction
+		(at 24.13 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "229d2209-22a3-4883-8b84-d30a0de71a7a")
 	)
 	(junction
 		(at 205.74 114.3)
@@ -2694,7 +2706,7 @@
 		(uuid "25d454a0-74de-4590-b33a-15e0233f04a4")
 	)
 	(junction
-		(at 77.47 95.25)
+		(at 24.13 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28858369-c93f-47ff-a932-fbeac81e5c9c")
@@ -2716,6 +2728,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47483ed6-3695-4364-87e3-a6bb862a4345")
+	)
+	(junction
+		(at 102.87 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48a58a9d-e067-44cd-8903-c90db8bc5785")
 	)
 	(junction
 		(at 255.27 60.96)
@@ -2742,12 +2760,6 @@
 		(uuid "59575806-3844-4869-8082-440d740c72e5")
 	)
 	(junction
-		(at 97.79 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60dc5c7e-d1d1-4d89-a3c0-bc0ca043cf03")
-	)
-	(junction
 		(at 99.06 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2772,7 +2784,7 @@
 		(uuid "a3a53ce7-e2dc-4854-825d-6a0c5489f840")
 	)
 	(junction
-		(at 166.37 101.6)
+		(at 129.54 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a41e7492-9239-46ea-8a0e-003af16e5edf")
@@ -2784,22 +2796,34 @@
 		(uuid "a67f2df9-b9cf-46e6-8447-0b88d0a22170")
 	)
 	(junction
-		(at 204.47 26.67)
+		(at 102.87 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b69a39fe-1d63-4b00-85ab-fc096c1f4e49")
+		(uuid "aaedeb3c-d468-48fd-804c-496aede7f749")
+	)
+	(junction
+		(at 209.55 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab19ac09-9ed4-4166-b968-18cbab0ba9fe")
+	)
+	(junction
+		(at 158.75 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd1048e6-272a-40cc-8352-1961c2280046")
+	)
+	(junction
+		(at 158.75 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0ce7360-129f-42de-a64c-7627ab1e8b4b")
 	)
 	(junction
 		(at 154.94 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4a963f4-4827-44a7-9a9b-883c6313994b")
-	)
-	(junction
-		(at 153.67 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8ca3aad-300d-419a-8043-2fc14fe7331b")
 	)
 	(junction
 		(at 265.43 138.43)
@@ -2820,33 +2844,37 @@
 		(uuid "db8daf49-6e8f-4594-9b11-2f1f8a8f5495")
 	)
 	(junction
+		(at 27.94 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e851ef16-4ade-4549-8236-3f95bd915d8d")
+	)
+	(junction
+		(at 209.55 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f913dc4f-29c5-4609-a0a0-d6a2abb13208")
+	)
+	(junction
 		(at 82.55 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffab4b5c-f0e6-41d7-9a78-d967a17460c5")
 	)
 	(no_connect
-		(at 166.37 114.3)
-		(uuid "2594c870-a080-46c3-acc6-757c70f96a56")
-	)
-	(no_connect
 		(at 248.92 119.38)
 		(uuid "320fca24-4c3e-407c-b302-121c294423e6")
 	)
 	(no_connect
-		(at 166.37 119.38)
-		(uuid "74004bc0-2a0a-49bc-9915-eb07bf97ca02")
-	)
-	(no_connect
-		(at 166.37 109.22)
+		(at 129.54 113.03)
 		(uuid "a810da6d-c527-47f6-b42e-cf8a218344bc")
 	)
 	(no_connect
-		(at 166.37 116.84)
+		(at 129.54 120.65)
 		(uuid "adbdcd8b-d9f0-427c-9478-b04b1ff710cd")
 	)
 	(no_connect
-		(at 166.37 111.76)
+		(at 129.54 115.57)
 		(uuid "b7dee677-e36b-4079-b18f-ee15d38c6f2f")
 	)
 	(no_connect
@@ -2854,7 +2882,7 @@
 		(uuid "d51ba640-9c52-45cb-af4b-bb5c868054f2")
 	)
 	(no_connect
-		(at 166.37 104.14)
+		(at 129.54 107.95)
 		(uuid "ebe676d3-2413-4852-94d0-e6c931856c41")
 	)
 	(wire
@@ -2869,17 +2897,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 26.67) (xy 262.89 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01a5459e-6bdf-42a7-bb56-5f999f9f7349")
-	)
-	(wire
-		(pts
-			(xy 205.74 31.75) (xy 210.82 31.75)
+			(xy 205.74 31.75) (xy 209.55 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2899,7 +2917,17 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 35.56) (xy 242.57 26.67)
+			(xy 209.55 22.86) (xy 215.9 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065012ac-4f13-4271-a376-eef8dcf5fca4")
+	)
+	(wire
+		(pts
+			(xy 242.57 35.56) (xy 242.57 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2939,13 +2967,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 22.86) (xy 251.46 26.67)
+			(xy 24.13 31.75) (xy 24.13 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "145d6c2a-c42b-4a12-9ec7-1375c99e36bb")
+		(uuid "0fb0651e-2d25-42c3-b873-d58f40e6de7d")
 	)
 	(wire
 		(pts
@@ -3049,6 +3077,26 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 26.67) (xy 213.36 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b81efcf-672a-48fd-aafa-e04a60cb1184")
+	)
+	(wire
+		(pts
+			(xy 102.87 22.86) (xy 107.95 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8e6553-a156-4e78-addb-df4a324f05ac")
+	)
+	(wire
+		(pts
 			(xy 205.74 114.3) (xy 213.36 114.3)
 		)
 		(stroke
@@ -3059,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 101.6) (xy 168.91 101.6)
+			(xy 129.54 105.41) (xy 132.08 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3076,6 +3124,16 @@
 			(type default)
 		)
 		(uuid "3188541a-b59a-4f27-8d3c-3ff0f53d9d99")
+	)
+	(wire
+		(pts
+			(xy 73.66 105.41) (xy 73.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e67c85-4c1e-4f14-8c22-ebad541e9d0d")
 	)
 	(wire
 		(pts
@@ -3119,7 +3177,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 26.67) (xy 204.47 26.67)
+			(xy 193.04 22.86) (xy 209.55 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3129,7 +3187,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 30.48) (xy 104.14 30.48)
+			(xy 158.75 21.59) (xy 162.56 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42512c59-f778-4138-b2d5-714600d7fe90")
+	)
+	(wire
+		(pts
+			(xy 99.06 30.48) (xy 102.87 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3149,13 +3217,23 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 26.67) (xy 213.36 26.67)
+			(xy 158.75 21.59) (xy 158.75 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "477c881b-9a19-410c-9a1e-170e3e663f47")
+		(uuid "4917aa98-e463-408d-97f1-578db8e694c6")
+	)
+	(wire
+		(pts
+			(xy 259.08 31.75) (xy 260.35 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4acbc46b-c9f1-497b-b05a-aa5c1552d532")
 	)
 	(wire
 		(pts
@@ -3169,6 +3247,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 118.11) (xy 130.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5778632e-c4f3-4a38-aee0-3054a6237c61")
+	)
+	(wire
+		(pts
 			(xy 260.35 138.43) (xy 260.35 137.16)
 		)
 		(stroke
@@ -3179,7 +3267,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 35.56) (xy 193.04 26.67)
+			(xy 27.94 48.26) (xy 27.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbf55fd-cc0c-4c40-9fb9-eaa30266137a")
+	)
+	(wire
+		(pts
+			(xy 193.04 35.56) (xy 193.04 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3209,7 +3307,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 119.38) (xy 130.81 119.38)
+			(xy 90.17 123.19) (xy 93.98 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3249,7 +3347,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 105.41) (xy 83.82 105.41)
+			(xy 26.67 38.1) (xy 27.94 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3259,17 +3357,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 114.3) (xy 130.81 114.3)
+			(xy 73.66 116.84) (xy 73.66 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a4dc6d2-a97d-4584-9f48-a8b68f23b8d7")
+		(uuid "6828f1a2-bb57-4a13-b28a-d1bb7c9adc35")
 	)
 	(wire
 		(pts
-			(xy 242.57 26.67) (xy 251.46 26.67)
+			(xy 242.57 22.86) (xy 259.08 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3279,7 +3377,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 21.59) (xy 97.79 25.4)
+			(xy 259.08 22.86) (xy 267.97 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c9b297-f02f-4663-8f95-313381558c6b")
+	)
+	(wire
+		(pts
+			(xy 97.79 21.59) (xy 97.79 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3299,6 +3407,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 22.86) (xy 259.08 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e89d8e-1ba0-43f8-9374-eaadfdfd8c49")
+	)
+	(wire
+		(pts
 			(xy 99.06 49.53) (xy 99.06 59.69)
 		)
 		(stroke
@@ -3309,7 +3427,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 34.29) (xy 87.63 25.4)
+			(xy 87.63 34.29) (xy 87.63 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3319,23 +3437,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 95.25) (xy 166.37 101.6)
+			(xy 129.54 99.06) (xy 129.54 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7f8ff8e8-bce1-4898-9240-dfd5a64f3eca")
-	)
-	(wire
-		(pts
-			(xy 153.67 21.59) (xy 153.67 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8118990f-d3f0-4762-be42-b0071a776bab")
 	)
 	(wire
 		(pts
@@ -3349,16 +3457,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 22.86) (xy 204.47 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c33c415-ff86-46bc-b8d7-843653f0588f")
-	)
-	(wire
-		(pts
 			(xy 203.2 104.14) (xy 203.2 101.6)
 		)
 		(stroke
@@ -3366,6 +3464,16 @@
 			(type default)
 		)
 		(uuid "8d068b57-8a20-4b72-95bf-bda48ce8b9d4")
+	)
+	(wire
+		(pts
+			(xy 158.75 30.48) (xy 160.02 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d840ceb-f030-4ff4-b0b8-dfc589d93a26")
 	)
 	(wire
 		(pts
@@ -3409,6 +3517,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 30.48) (xy 104.14 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9030e71f-8ae9-4563-9c1a-2a01da7f08b7")
+	)
+	(wire
+		(pts
 			(xy 200.66 116.84) (xy 213.36 116.84)
 		)
 		(stroke
@@ -3419,7 +3537,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 25.4) (xy 153.67 25.4)
+			(xy 90.17 120.65) (xy 93.98 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934c58cc-c7f4-4b96-a13c-09ca62724ef6")
+	)
+	(wire
+		(pts
+			(xy 142.24 21.59) (xy 158.75 21.59)
 		)
 		(stroke
 			(width 0)
@@ -3439,6 +3567,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 118.11) (xy 93.98 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f5bd92-822a-448c-99bb-1e2648a6142a")
+	)
+	(wire
+		(pts
 			(xy 189.23 57.15) (xy 189.23 60.96)
 		)
 		(stroke
@@ -3449,7 +3587,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 30.48) (xy 160.02 30.48)
+			(xy 154.94 30.48) (xy 158.75 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3459,7 +3597,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 102.87) (xy 83.82 102.87)
+			(xy 24.13 35.56) (xy 30.48 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3539,13 +3677,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 25.4) (xy 162.56 25.4)
+			(xy 209.55 22.86) (xy 209.55 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2972130-9c5e-4b04-8481-64b6fef261d1")
+		(uuid "b1a59780-66cc-4160-a489-f71b4f0bf7ce")
 	)
 	(wire
 		(pts
@@ -3589,7 +3727,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 34.29) (xy 142.24 25.4)
+			(xy 142.24 34.29) (xy 142.24 21.59)
 		)
 		(stroke
 			(width 0)
@@ -3629,6 +3767,26 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 22.86) (xy 215.9 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc597fef-e534-4e03-a242-c793fe63b641")
+	)
+	(wire
+		(pts
+			(xy 27.94 38.1) (xy 30.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0273cfd-ef74-4e06-b580-4465bab16fb7")
+	)
+	(wire
+		(pts
 			(xy 238.76 45.72) (xy 247.65 45.72)
 		)
 		(stroke
@@ -3649,7 +3807,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 31.75) (xy 260.35 31.75)
+			(xy 255.27 31.75) (xy 259.08 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3679,7 +3837,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 25.4) (xy 106.68 25.4)
+			(xy 97.79 22.86) (xy 102.87 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3699,7 +3857,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 111.76) (xy 130.81 111.76)
+			(xy 90.17 115.57) (xy 93.98 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3709,7 +3867,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 121.92) (xy 130.81 121.92)
+			(xy 90.17 125.73) (xy 93.98 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3719,7 +3877,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 109.22) (xy 130.81 109.22)
+			(xy 90.17 113.03) (xy 93.98 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3729,7 +3887,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 25.4) (xy 97.79 25.4)
+			(xy 87.63 22.86) (xy 97.79 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3779,13 +3937,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 116.84) (xy 130.81 116.84)
+			(xy 209.55 31.75) (xy 210.82 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3a9f28b-4dec-44e0-befb-9d892a92a3db")
+		(uuid "ecc590f1-2889-49ea-a98f-5cfbca34f8f9")
 	)
 	(wire
 		(pts
@@ -3799,7 +3957,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 95.25) (xy 82.55 95.25)
+			(xy 73.66 118.11) (xy 73.66 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f450400a-2ca0-4efe-9edd-a06ecf337861")
+	)
+	(wire
+		(pts
+			(xy 24.13 27.94) (xy 29.21 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3829,7 +3997,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 102.87) (xy 77.47 95.25)
+			(xy 24.13 35.56) (xy 24.13 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3868,7 +4036,7 @@
 		(uuid "fec392ba-7717-4008-9b2a-954226291b77")
 	)
 	(label "D1"
-		(at 127 111.76 180)
+		(at 90.17 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3888,7 +4056,7 @@
 		(uuid "0717fba6-6660-4117-9f56-f53f06709091")
 	)
 	(label "SCL"
-		(at 127 121.92 180)
+		(at 90.17 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3897,8 +4065,18 @@
 		)
 		(uuid "2b08699a-d5ac-4f43-be2c-e2753e5910ff")
 	)
+	(label "D3"
+		(at 90.17 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3cf9fb13-ccb2-4b0e-9998-347def981ba0")
+	)
 	(label "SDA"
-		(at 127 119.38 180)
+		(at 90.17 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3908,7 +4086,37 @@
 		(uuid "4432f4fd-8165-498c-8153-ec2a8e014aa3")
 	)
 	(label "BAT+"
-		(at 204.47 22.86 180)
+		(at 73.66 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "444d4b61-d435-477d-bdf3-11b7d2cc5a6c")
+	)
+	(label "D10"
+		(at 129.54 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5253e769-66f8-467c-8594-56414140b35e")
+	)
+	(label "D8"
+		(at 130.81 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d5d3d78-710c-4e0e-bc5b-de8e63347076")
+	)
+	(label "BAT+"
+		(at 207.01 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3918,7 +4126,7 @@
 		(uuid "6535115b-096c-48f9-9cd1-4e6df7906e3b")
 	)
 	(label "BAT+"
-		(at 251.46 22.86 180)
+		(at 254 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3928,7 +4136,7 @@
 		(uuid "75b327a5-9112-4b12-a845-975c1d253d1f")
 	)
 	(label "D2"
-		(at 180.34 45.72 180)
+		(at 73.66 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3938,7 +4146,7 @@
 		(uuid "775c774f-e79e-4d5c-9c82-43b6492472cc")
 	)
 	(label "D3"
-		(at 229.87 45.72 180)
+		(at 180.34 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3957,7 +4165,7 @@
 		)
 		(uuid "7b34d493-e1ff-4b21-97bf-b3bbe66d9775")
 	)
-	(label "D1"
+	(label "D10"
 		(at 129.54 44.45 180)
 		(effects
 			(font
@@ -3987,8 +4195,18 @@
 		)
 		(uuid "9594d686-1592-456e-9e45-64733efbc1c5")
 	)
+	(label "D8"
+		(at 229.87 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97320581-2998-46d6-8ca7-fd04aa3d3ef2")
+	)
 	(label "BAT+"
-		(at 77.47 97.79 180)
+		(at 24.13 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4008,7 +4226,7 @@
 		(uuid "b733f164-1a5e-4901-b18c-392d1e6288e1")
 	)
 	(label "D2"
-		(at 127 114.3 180)
+		(at 90.17 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4017,18 +4235,8 @@
 		)
 		(uuid "d32fb9c6-90d9-4ee4-b573-8848b49068df")
 	)
-	(label "D3"
-		(at 127 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "df0b833f-071a-452a-ad81-add246d8bd66")
-	)
 	(label "D0"
-		(at 127 109.22 180)
+		(at 90.17 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4071,7 +4279,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 82.55 95.25 0)
+		(at 29.21 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4081,7 +4289,7 @@
 		)
 		(uuid "47c811e0-f329-4cd3-bf96-9ef46cd96326")
 		(property "Netclass" "power"
-			(at 83.2485 92.71 0)
+			(at 29.9085 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +4298,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -177.8 25.4 0)
+			(at -231.14 -41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4310,38 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 166.37 96.52 270)
+		(at 99.06 36.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "50a317f7-12b9-45a3-8a9e-e2632f4ad2fe")
+		(property "Netclass" "power"
+			(at 101.6 36.1315 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -77.47 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 129.54 100.33 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4112,7 +4351,7 @@
 		)
 		(uuid "5a6c4200-bae7-4c5f-8e87-e4f7184c4a2d")
 		(property "Netclass" "3v3"
-			(at 168.91 95.8215 90)
+			(at 132.08 99.6315 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,11 +4360,297 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -43.18 2.54 0)
+			(at -80.01 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 212.09 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88846833-3730-4956-95fa-3e798cf87594")
+		(property "Netclass" "power"
+			(at 212.7885 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 35.56 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 154.94 36.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e2e3327-d41e-43f8-9b59-91735217349a")
+		(property "Netclass" "power"
+			(at 157.48 36.1315 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -21.59 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 106.68 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ee00d37-18a7-46a3-8152-d173a98c6677")
+		(property "Netclass" "power"
+			(at 107.3785 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -69.85 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 161.29 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c974b545-18ee-42af-8e57-23ea52aef1bf")
+		(property "Netclass" "power"
+			(at 161.9885 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -15.24 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 205.74 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5c26b9f-c612-4924-b60a-daf75c397b19")
+		(property "Netclass" "power"
+			(at 208.28 38.6715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 29.21 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 262.89 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2023543-4d69-4b8b-a18f-951a18a75407")
+		(property "Netclass" "power"
+			(at 263.5885 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 86.36 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 255.27 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd4bf5fd-cc98-4616-8c5b-0a8d5f584dfc")
+		(property "Netclass" "power"
+			(at 257.81 38.6715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 78.74 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_prj:C_1uf")
+		(at 209.55 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "011d0bb6-351a-4c79-b433-9dd31eb7763e")
+		(property "Reference" "C7"
+			(at 210.058 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 209.804 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 210.5152 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 209.55 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f2857c3-582d-42e0-9a5f-8461b491f8b3")
+		)
+		(pin "1"
+			(uuid "7d8b2f79-80ab-4bb4-a9ca-8786c3b9ecfa")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "C7")
+					(unit 1)
 				)
 			)
 		)
@@ -4208,7 +4733,7 @@
 	)
 	(symbol
 		(lib_id "Drone_prj:XIAO ESP32-S3")
-		(at 148.59 114.3 0)
+		(at 111.76 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4217,7 +4742,7 @@
 		(fields_autoplaced yes)
 		(uuid "06b0ce58-cd80-4f0d-a667-6806be44df39")
 		(property "Reference" "U1"
-			(at 148.59 93.98 0)
+			(at 111.76 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +4750,7 @@
 			)
 		)
 		(property "Value" "XIAO ESP32-S3"
-			(at 148.59 96.52 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4233,7 +4758,7 @@
 			)
 		)
 		(property "Footprint" "Drone_prj:XIAO ESP32-S3"
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,7 +4777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4786,7 @@
 			)
 		)
 		(property "MF" "Seeed Technology Co., Ltd"
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +4796,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "N/A"
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4806,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4816,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4826,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/113991054/Seeed+Studio/view-part/?ref=eda"
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +4836,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +4846,7 @@
 			)
 		)
 		(property "PARTREV" "23/05/2022"
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +4856,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/113991054/Seeed+Studio/view-part/?ref=snap"
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +4866,7 @@
 			)
 		)
 		(property "MP" "113991054"
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +4876,7 @@
 			)
 		)
 		(property "Description_1" "- ESP32-C3 Transceiver; 802.11 a/b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) 2.4GHz Evaluation Board"
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +4886,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "113991054"
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +4896,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +4906,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Seeed Technology"
-			(at 148.59 114.3 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,6 +5099,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Drone_prj:C_1uf")
+		(at 158.75 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1df90d3b-211a-4ee4-8666-206ce9fdb496")
+		(property "Reference" "C6"
+			(at 159.258 24.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 159.004 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 159.7152 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 158.75 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "908f1e8a-d03c-498c-ae8f-da2d53197890")
+		)
+		(pin "1"
+			(uuid "cb518b65-64a7-4d71-84e8-a91839549a78")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:AO3400A")
 		(at 203.2 45.72 0)
 		(unit 1)
@@ -4658,7 +5252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20505450-8a19-40b0-b67b-31411bbd766c")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 249.174 97.028 0)
 			(effects
 				(font
@@ -4676,7 +5270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 249.8852 102.87 0)
 			(effects
 				(font
@@ -4712,49 +5306,42 @@
 		(instances
 			(project ""
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 146.05 34.29 0)
+		(lib_id "Connector:TestPoint")
+		(at 260.35 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "27b88f6c-6bcc-4f3c-8425-7a5d812d2073")
-		(property "Reference" "D5"
-			(at 146.05 27.94 0)
+		(uuid "25cb69a5-b13b-4a97-85f0-9adb9b375dd3")
+		(property "Reference" "TP8"
+			(at 265.43 30.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 146.05 30.48 0)
+		(property "Value" "TestPoint"
+			(at 265.43 33.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 146.05 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 146.05 34.29 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 260.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,8 +5349,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 146.05 34.29 0)
+		(property "Datasheet" "~"
+			(at 260.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,34 +5358,22 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 146.05 34.29 0)
+		(property "Description" "test point"
+			(at 260.35 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "890a46c0-1cf9-4aa1-87d2-451f69167a26")
 		)
 		(pin "1"
-			(uuid "881cd8af-1363-42f3-82a3-ad60742d8351")
+			(uuid "354f185d-2230-447d-b886-83802454e4be")
 		)
 		(instances
-			(project ""
+			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "D5")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -4813,7 +5388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ae7fc8f-99a2-4d91-a535-867eeec364ad")
-		(property "Reference" "R10"
+		(property "Reference" "R3"
 			(at 190.754 53.086 0)
 			(effects
 				(font
@@ -4912,7 +5487,7 @@
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "R10")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5056,16 +5631,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 260.35 31.75 270)
+		(at 104.14 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2f8f82d8-0ddc-49de-a10f-72a0099162a9")
-		(property "Reference" "TP8"
-			(at 265.43 30.4799 90)
+		(uuid "2e59cdfe-2718-4c2a-a72d-223929744650")
+		(property "Reference" "TP5"
+			(at 109.22 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5074,7 +5649,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 265.43 33.0199 90)
+			(at 109.22 31.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,8 +5657,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 260.35 36.83 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 104.14 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +5667,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 36.83 0)
+			(at 104.14 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +5676,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 260.35 31.75 0)
+			(at 104.14 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,47 +5685,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "e865107b-4983-4031-8870-6a55bde16507")
+			(uuid "40149b9d-df78-4363-9902-b0bf09a78937")
 		)
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "TP8")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 262.89 26.67 270)
+		(lib_id "power:GND")
+		(at 73.66 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "330ba806-ef31-4d49-93c4-f98a343f91c4")
-		(property "Reference" "TP4"
-			(at 267.97 25.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 267.97 27.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 262.89 31.75 0)
+		(uuid "2f470139-2fe2-4936-86d6-68b02d1f5387")
+		(property "Reference" "#PWR016"
+			(at 73.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,8 +5715,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 262.89 31.75 0)
+		(property "Value" "GND"
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,8 +5732,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 262.89 26.67 0)
+		(property "Datasheet" ""
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,146 +5751,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "be89683c-dd05-4904-92e5-b8ab14319ec3")
+			(uuid "49d291b5-c9be-47dd-b2b4-85c74710849d")
 		)
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 213.36 26.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "347cd000-6ae4-4823-bb3e-8a6ce6c9f068")
-		(property "Reference" "TP3"
-			(at 218.44 25.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 218.44 27.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 213.36 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 213.36 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "002bf496-d1e6-464e-b2e0-0434b5976a3e")
-		)
-		(instances
-			(project "Mini_Drone"
-				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 210.82 31.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ade7cd2-e4d6-4875-bd42-91f40f8b5793")
-		(property "Reference" "TP7"
-			(at 215.9 30.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 215.9 33.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 210.82 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 210.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c072d07e-be75-4cf0-86be-2038bc0d68e2")
-		)
-		(instances
-			(project "Mini_Drone"
-				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "TP7")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5331,7 +5771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "433f37e1-3154-4fef-af76-e1d85592bff7")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 207.01 107.95 0)
 			(effects
 				(font
@@ -5430,7 +5870,122 @@
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "R7")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_prj:Resistor_SMD{colon}R_0603_1608Metric")
+		(at 73.66 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44ece0a8-b09b-407f-a4a7-278daee9542c")
+		(property "Reference" "R9"
+			(at 76.2 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 76.2 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.882 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C25804"
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C25804.html"
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "0603WAF1002T5E"
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "326be125-8db0-4457-9729-a4790af6fa23")
+		)
+		(pin "1"
+			(uuid "6508c08b-1834-4ca2-ac52-09092985c8dd")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5580,16 +6135,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 106.68 25.4 270)
+		(at 24.13 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5571e05d-1f91-458e-a1a0-4fd752da3b38")
-		(property "Reference" "TP1"
-			(at 111.76 24.1299 90)
+		(uuid "52e11181-c526-45cd-abfd-341454d10b20")
+		(property "Reference" "TP9"
+			(at 29.21 30.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5598,7 +6153,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 111.76 26.6699 90)
+			(at 29.21 33.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,7 +6162,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 106.68 30.48 0)
+			(at 24.13 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5616,7 +6171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 30.48 0)
+			(at 24.13 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +6180,160 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 106.68 25.4 0)
+			(at 24.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6470eb35-ea44-4ac7-b441-be41c7f71134")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 196.85 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53923c60-0514-4ef3-9660-e6763b96425a")
+		(property "Reference" "D2"
+			(at 196.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 196.85 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 196.85 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 196.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 196.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 196.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00f4aed9-92a5-4e0c-a812-b3b7c264cdf4")
+		)
+		(pin "1"
+			(uuid "e284cc99-317b-4366-a2c7-d823007996ae")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5571e05d-1f91-458e-a1a0-4fd752da3b38")
+		(property "Reference" "TP1"
+			(at 113.03 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 113.03 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 107.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,8 +6496,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 26.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dd3a82d-f8a3-43c8-9ae9-66d4c2a79469")
+		(property "Reference" "TP3"
+			(at 218.44 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 218.44 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 213.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e09b256-7ad4-4209-bb09-92f5f9e65dda")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 77.47 95.25 0)
+		(at 24.13 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5797,8 +6572,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fb59976-aa24-4829-b820-c1a2909e2672")
-		(property "Reference" "#FLG03"
-			(at 77.47 93.345 0)
+		(property "Reference" "#FLG01"
+			(at 24.13 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,7 +6582,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 77.4699 91.44 90)
+			(at 24.1299 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,7 +6592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 95.25 0)
+			(at 24.13 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5826,7 +6601,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 95.25 0)
+			(at 24.13 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5835,7 +6610,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 77.47 95.25 0)
+			(at 24.13 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,7 +6624,7 @@
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -5857,7 +6632,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 88.9 102.87 0)
+		(at 35.56 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5866,7 +6641,7 @@
 		(fields_autoplaced yes)
 		(uuid "60be9618-ed68-41ec-a92c-221e6a9c3bf8")
 		(property "Reference" "J1"
-			(at 91.44 102.8699 0)
+			(at 38.1 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +6650,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 91.44 105.4099 0)
+			(at 38.1 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,7 +6659,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
-			(at 88.9 102.87 0)
+			(at 35.56 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,7 +6668,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 102.87 0)
+			(at 35.56 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +6677,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 88.9 102.87 0)
+			(at 35.56 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5926,6 +6701,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 267.97 22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6168d2b6-b3c8-419c-a230-e1b72b6c6d39")
+		(property "Reference" "TP4"
+			(at 273.05 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 273.05 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 267.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 267.97 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5f85e4-76ef-4352-8866-1709c5c940ec")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Drone_prj:Resistor_SMD{colon}R_0603_1608Metric")
 		(at 82.55 52.07 0)
 		(unit 1)
@@ -5934,7 +6775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61f7bae3-7873-40f3-bdea-5b06f9d5742f")
-		(property "Reference" "R12"
+		(property "Reference" "R1"
 			(at 84.582 51.816 0)
 			(effects
 				(font
@@ -6033,7 +6874,93 @@
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "R12")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 246.38 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "633b3939-b059-4f1e-b923-319ec46750f1")
+		(property "Reference" "D3"
+			(at 246.38 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 246.38 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 246.38 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 246.38 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 246.38 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 246.38 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 246.38 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db1f6a9e-9990-4fae-8293-6391bff31691")
+		)
+		(pin "1"
+			(uuid "07839734-9c50-4cba-acbf-2b118a49f854")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6100,6 +7027,178 @@
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 146.05 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aad48da-e015-4996-9271-782a812348e2")
+		(property "Reference" "D1"
+			(at 146.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 146.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 146.05 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 146.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 146.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 146.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "babb4331-f5d1-4231-9a98-4e2f2d615d4c")
+		)
+		(pin "1"
+			(uuid "12930875-fbd3-4c35-83b3-4d93e45c605a")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 91.44 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d4096b4-7f81-42a5-a282-49858fcb708f")
+		(property "Reference" "D5"
+			(at 91.44 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 91.44 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 91.44 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "278c17f5-ddfc-4d6b-b947-ca502807f3f0")
+		)
+		(pin "1"
+			(uuid "211175a1-7771-4f7c-9380-fdbb13b17f2b")
+		)
+		(instances
+			(project ""
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6180,7 +7279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72e6cb65-4254-471a-a89b-81b8d88a9118")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 272.288 131.318 0)
 			(effects
 				(font
@@ -6198,7 +7297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 272.7452 137.16 0)
 			(effects
 				(font
@@ -6234,74 +7333,7 @@
 		(instances
 			(project ""
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 162.56 25.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72f53057-afc6-4585-8084-5e69dececfa2")
-		(property "Reference" "TP2"
-			(at 167.64 24.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 167.64 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 162.56 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 162.56 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "556a4f19-a42f-433d-bc5a-0c87fe7a3135")
-		)
-		(instances
-			(project "Mini_Drone"
-				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "TP2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6382,7 +7414,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7bee8b9b-4d88-47cf-9cc3-c8856fedd9ad")
+		(uuid "796c3aaa-5ebf-487e-bad2-b76cf34aa2e1")
 		(property "Reference" "TP6"
 			(at 165.1 29.2099 90)
 			(effects
@@ -6401,7 +7433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 160.02 35.56 0)
 			(effects
 				(font
@@ -6429,7 +7461,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f963697b-6dca-4fbd-80e7-81de25f23e53")
+			(uuid "d56adb6d-3125-47a4-b704-8f631cad759d")
 		)
 		(instances
 			(project "Mini_Drone"
@@ -6449,7 +7481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8141f7bd-39c6-4197-a720-388d40209a1f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 260.35 109.22 0)
 			(effects
 				(font
@@ -6499,7 +7531,7 @@
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6573,7 +7605,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 105.41 0)
+		(at 30.48 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6581,8 +7613,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cbc34c3-f53c-4f83-bf2b-fa7183eeaef4")
-		(property "Reference" "#PWR010"
-			(at 83.82 111.76 0)
+		(property "Reference" "#PWR09"
+			(at 30.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,7 +7623,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 110.49 0)
+			(at 30.48 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6599,7 +7631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 105.41 0)
+			(at 30.48 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6608,7 +7640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 105.41 0)
+			(at 30.48 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,7 +7649,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 105.41 0)
+			(at 30.48 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6631,7 +7663,7 @@
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6647,7 +7679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f14b037-974a-4c8d-808c-0e2a100d3939")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 262.89 109.2199 0)
 			(effects
 				(font
@@ -6746,7 +7778,7 @@
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6754,15 +7786,15 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 168.91 101.6 0)
+		(at 132.08 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8f972a25-0fc1-4008-8146-5d188da9035c")
-		(property "Reference" "#FLG01"
-			(at 168.91 99.695 0)
+		(property "Reference" "#FLG02"
+			(at 132.08 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6771,7 +7803,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 172.212 97.79 0)
+			(at 135.382 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,7 +7812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 101.6 0)
+			(at 132.08 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6789,7 +7821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 101.6 0)
+			(at 132.08 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6798,7 +7830,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 168.91 101.6 0)
+			(at 132.08 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,7 +7844,7 @@
 		(instances
 			(project ""
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -6827,7 +7859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "928f0d67-e8ac-4368-8ac1-1fe4b0865299")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 196.85 107.95 0)
 			(effects
 				(font
@@ -6926,7 +7958,76 @@
 		(instances
 			(project ""
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "R6")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_prj:C_1uf")
+		(at 259.08 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97f821c9-454d-47cc-afba-a3dbae618aa2")
+		(property "Reference" "C8"
+			(at 259.588 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 259.334 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 260.0452 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 259.08 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88cd6476-453e-4b88-bcb2-844da52ac4be")
+		)
+		(pin "1"
+			(uuid "768418f7-a58e-4958-88e9-957eaf0402c1")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6941,7 +8042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cb49486-6ac7-44f5-acf9-7d9ad9d33638")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 235.712 97.028 0)
 			(effects
 				(font
@@ -6959,7 +8060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 239.7252 102.87 0)
 			(effects
 				(font
@@ -6995,7 +8096,7 @@
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7068,7 +8169,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 166.37 95.25 0)
+		(at 129.54 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7077,7 +8178,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f381c9d-c486-40de-bd57-dc68e5c2514e")
 		(property "Reference" "#PWR06"
-			(at 166.37 99.06 0)
+			(at 129.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7086,7 +8187,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 166.37 90.17 0)
+			(at 129.54 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +8195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 95.25 0)
+			(at 129.54 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +8204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 95.25 0)
+			(at 129.54 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +8213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 166.37 95.25 0)
+			(at 129.54 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7199,7 +8300,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 127 0)
+		(at 129.54 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7208,7 +8309,7 @@
 		(fields_autoplaced yes)
 		(uuid "acb8e459-1c88-459e-9038-4dc8ec0adaa7")
 		(property "Reference" "#PWR012"
-			(at 166.37 133.35 0)
+			(at 129.54 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +8318,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 132.08 0)
+			(at 129.54 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,7 +8326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 127 0)
+			(at 129.54 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,7 +8335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 127 0)
+			(at 129.54 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,7 +8344,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 127 0)
+			(at 129.54 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7264,92 +8365,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 246.38 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af500f85-cd6e-423a-a750-5d6a9793a705")
-		(property "Reference" "D3"
-			(at 246.38 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 246.38 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 246.38 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a5a9c8e1-2e89-41a7-986a-0253f2f8d1d3")
-		)
-		(pin "1"
-			(uuid "835efaad-e882-4d97-aafa-c8ee922795c6")
-		)
-		(instances
-			(project "Mini_Drone"
-				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Drone_prj:Resistor_SMD{colon}R_0603_1608Metric")
 		(at 238.76 53.34 0)
 		(unit 1)
@@ -7358,7 +8373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7cb8991-8fb0-42bc-9475-b8893cb1ce81")
-		(property "Reference" "R9"
+		(property "Reference" "R4"
 			(at 240.03 53.34 0)
 			(effects
 				(font
@@ -7457,14 +8472,13 @@
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "R9")
+					(reference "R4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "C_1uf_1")
 		(lib_id "Drone_prj:C_1uf")
 		(at 260.35 133.35 0)
 		(unit 1)
@@ -7473,7 +8487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf8060fa-aa2a-48ec-9328-9bd8b3d37797")
-		(property "Reference" "C6"
+		(property "Reference" "C3"
 			(at 260.858 131.318 0)
 			(effects
 				(font
@@ -7491,7 +8505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 261.3152 137.16 0)
 			(effects
 				(font
@@ -7527,7 +8541,7 @@
 		(instances
 			(project ""
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "C6")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7535,7 +8549,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 80.01 105.41 90)
+		(at 26.67 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7543,8 +8557,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d78a802b-e53c-4e47-aaf8-b44e0227e3f3")
-		(property "Reference" "#FLG02"
-			(at 78.105 105.41 0)
+		(property "Reference" "#FLG03"
+			(at 24.765 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,7 +8567,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 76.2 105.4099 90)
+			(at 22.86 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7563,7 +8577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 105.41 0)
+			(at 26.67 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,7 +8586,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 105.41 0)
+			(at 26.67 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7581,7 +8595,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 80.01 105.41 0)
+			(at 26.67 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7595,7 +8609,7 @@
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -7610,7 +8624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9aff4cf-a17f-4b8f-aa0b-c857b15cc4b1")
-		(property "Reference" "R11"
+		(property "Reference" "R2"
 			(at 139.7 52.07 0)
 			(effects
 				(font
@@ -7709,74 +8723,7 @@
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 104.14 30.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9eb2421-ec70-4ac4-8dff-3d8dc044c301")
-		(property "Reference" "TP5"
-			(at 109.22 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 109.22 31.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 104.14 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 104.14 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "498f52ed-25bc-440f-9a2f-3f18f2301263")
-		)
-		(instances
-			(project ""
-				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "TP5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7849,42 +8796,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 91.44 34.29 0)
+		(lib_id "Drone_prj:C_1uf")
+		(at 102.87 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea004d15-7f51-448f-bb46-87e8e4236fa7")
-		(property "Reference" "D4"
-			(at 91.44 27.94 0)
+		(uuid "e5c8e164-b520-4bd1-831f-b657cd3b523a")
+		(property "Reference" "C5"
+			(at 103.378 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 91.44 30.48 0)
+		(property "Value" "1uf"
+			(at 103.124 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 91.44 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 91.44 34.29 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 103.8352 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7892,8 +8831,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 91.44 34.29 0)
+		(property "Datasheet" "~"
+			(at 102.87 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7901,17 +8840,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 91.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 34.29 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7920,57 +8850,50 @@
 			)
 		)
 		(pin "2"
-			(uuid "973a8911-dba8-43c0-9023-c604d429a86c")
+			(uuid "4968868a-9d3f-40b1-a5b6-6aa41bc793ba")
 		)
 		(pin "1"
-			(uuid "f669c32c-2bfe-4d5d-a59f-8ef9418170d9")
+			(uuid "80e322af-8cc0-405c-8981-9f927219d7b9")
 		)
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "D4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 196.85 35.56 0)
+		(lib_id "Connector:TestPoint")
+		(at 27.94 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ee675d88-f9a9-4987-b029-619c3f00c5ea")
-		(property "Reference" "D1"
-			(at 196.85 29.21 0)
+		(uuid "e98a2303-b08e-45e4-95d2-896620a16e8a")
+		(property "Reference" "TP10"
+			(at 33.02 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 196.85 31.75 0)
+		(property "Value" "TestPoint"
+			(at 33.02 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 196.85 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 196.85 35.56 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 27.94 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,8 +8901,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 196.85 35.56 0)
+		(property "Datasheet" "~"
+			(at 27.94 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,8 +8910,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 196.85 35.56 0)
+		(property "Description" "test point"
+			(at 27.94 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,8 +8919,111 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 196.85 35.56 0)
+		(pin "1"
+			(uuid "4117ad7b-3acc-4f5a-8b69-d427d0b1f91b")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_prj:Resistor_SMD{colon}R_0603_1608Metric")
+		(at 73.66 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec78073e-93bb-4542-bfde-899940c6a03f")
+		(property "Reference" "R8"
+			(at 76.2 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 76.2 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.882 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C25804"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C25804.html"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "0603WAF1002T5E"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 73.66 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,15 +9032,149 @@
 			)
 		)
 		(pin "2"
-			(uuid "270ca1ad-c95e-4914-9084-2283518b305f")
+			(uuid "75f5b5e0-de94-4018-a06f-c1b101e19954")
 		)
 		(pin "1"
-			(uuid "e3b4a79d-897c-498c-a0c2-8ab02423cb4a")
+			(uuid "1ee8bb33-5cb6-41ce-8b9f-13848d9da1df")
 		)
 		(instances
 			(project "Mini_Drone"
 				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
-					(reference "D1")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 21.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efa0e265-cdca-4b49-8282-c0e1b3bb7a0b")
+		(property "Reference" "TP2"
+			(at 167.64 20.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 167.64 22.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 162.56 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0837d8d1-47a4-4a22-a445-b11fb1001f1e")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 209.55 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8db4965-fcde-4dbe-ba49-c6e6bfd38101")
+		(property "Reference" "TP7"
+			(at 214.63 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 214.63 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 209.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0f9e6e8-bde3-4e04-9ffd-a12c83e17f02")
+		)
+		(instances
+			(project "Mini_Drone"
+				(path "/78cab637-df74-4866-a6fd-9f72f844e5cf"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
