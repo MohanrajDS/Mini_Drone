@@ -2149,7 +2149,7 @@
 			(uuid "76f9a25c-9f47-4f4e-b242-4908d2aae306")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3d Models/113991054--3DModel-STEP-269445.STEP"
+		(model "${KIPRJMOD}/3d_models/XIAO_ESP32-S3.step"
 			(offset
 				(xyz 0 0 4.5)
 			)

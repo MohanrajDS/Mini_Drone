@@ -38,3 +38,11 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# Keep the release BOM even though other CSV/XML exports are ignored
+!manufacturing/*.csv
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
